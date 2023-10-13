@@ -40,4 +40,6 @@ int main(char args, char *argv[])
     char *str1 = argv[1];
     char *str2 = argv[2];
     printf("%d\n", my_strcmp(str1, str2));
+
+    return 0;
 }
