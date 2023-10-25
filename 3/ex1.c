@@ -5,7 +5,8 @@ int main(int argc, char *argv[]) {
     FILE *fp;
     int   char_count = 0;
     int   line_count = 1;
-    int   word_count = 0;
+
+    int word_count = 0;
 
     if (argc != 2) {
         puts("Usage: ex1 filename");
@@ -21,13 +22,14 @@ int main(int argc, char *argv[]) {
     int word_state = 0;
     for (int ch = fgetc(fp); ch != EOF; ch = fgetc(fp)) {
         ++char_count;
-        if (ch == '\n') ++line_count;
+        if (ch == '\n')
+            ++line_count;
 
         if (isalpha(ch) && !word_state) {
             ++word_count;
             word_state = 1;
         }
-        else {
+        else if (!isalpha(ch)) {
             word_state = 0;
         }
     }

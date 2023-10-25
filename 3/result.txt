@@ -1,0 +1,84 @@
+hajime@DESKTOP-HT6O7EI:~/workspace/infosys/3$ ./ex4.sh
+Running copy on 1M.txt
+Copy successful
+
+real    0m1.335s
+user    0m0.812s
+sys     0m0.463s
+
+Running copy_64 on 1M.txt
+Copy successful
+
+real    0m4.266s
+user    0m0.120s
+sys     0m3.976s
+
+Running copy_256 on 1M.txt
+Copy successful
+
+real    0m1.195s
+user    0m0.060s
+sys     0m1.062s
+
+Running copy_1024 on 1M.txt
+Copy successful
+
+real    0m0.431s
+user    0m0.000s
+sys     0m0.370s
+
+Running copy on 50M.txt
+Copy successful
+
+real    0m32.565s
+user    0m23.843s
+sys     0m6.326s
+
+Running copy_64 on 50M.txt
+Copy successful
+
+real    2m8.780s
+user    0m4.476s
+sys     2m0.134s
+
+Running copy_256 on 50M.txt
+Copy successful
+
+real    0m40.335s
+user    0m1.426s
+sys     0m34.821s
+
+Running copy_1024 on 50M.txt
+Copy successful
+
+real    0m21.511s
+user    0m0.364s
+sys     0m15.360s
+
+Running copy on 100M.txt
+Copy successful
+
+real    1m11.733s
+user    0m48.803s
+sys     0m17.518s
+
+Running copy_64 on 100M.txt
+Copy successful
+
+real    4m37.814s
+user    0m10.614s
+sys     4m21.555s
+
+Running copy_256 on 100M.txt
+Copy successful
+
+real    1m19.320s
+user    0m2.317s
+sys     1m9.111s
+
+Running copy_1024 on 100M.txt
+Copy successful
+
+real    0m35.320s
+user    0m0.644s
+sys     0m26.574s

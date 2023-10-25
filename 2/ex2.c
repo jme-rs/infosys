@@ -3,8 +3,8 @@
 #define LINE_LEN 80
 
 int main() {
-    char line_buf[LINE_LEN];
+  char line_buf[LINE_LEN];
 
-    while (fgets(line_buf, LINE_LEN, stdin) != NULL)
-        fputs(line_buf, stdout);
+  while (fgets(line_buf, LINE_LEN, stdin) != NULL)
+    fputs(line_buf, stdout);
 }
