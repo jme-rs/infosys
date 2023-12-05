@@ -17,4 +17,4 @@ IndentCaseLabels: true
 SpaceAfterCStyleCast: true
 AllowShortFunctionsOnASingleLine: Empty
 Cpp11BracedListStyle: false
-# MaxEmptyLinesToKeep: 5
+MaxEmptyLinesToKeep: 2
